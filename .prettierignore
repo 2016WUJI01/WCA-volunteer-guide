@@ -1,0 +1,5 @@
+# 忽略 Slidev 的 slides.md 文件
+slides.md
+
+# 或者忽略所有 markdown 文件
+# *.md

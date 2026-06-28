@@ -1,0 +1,44 @@
+{
+  // 针对 Slidev Markdown 文件的配置
+  "[markdown]": {
+    // 禁用自动格式化
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+
+    // 禁用特定格式化工具
+    "prettier.enable": false,
+    "eslint.autoFixOnSave": false,
+
+    // 保留折行和空格
+    "editor.wordWrap": "off",
+    "editor.trimAutoWhitespace": false
+  },
+
+  // Markdownlint 配置 - 完全禁用
+  "markdownlint.enable": false,
+
+  // Prettier 配置（如果使用）
+  "[markdown]": {
+    "editor.defaultFormatter": null
+  },
+
+  // 通用编辑器设置
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // 禁用保存时自动操作
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never"
+  },
+
+  // 隐藏 markdownlint 诊断信息
+  "markdownlint.ignore": [
+    "slides.md"
+  ],
+
+  // 禁用特定语言的诊断
+  "[markdown]": {
+    "editor.defaultFormatter": null
+  }
+}
